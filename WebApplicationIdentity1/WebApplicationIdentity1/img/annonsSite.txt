@@ -1,0 +1,84 @@
+Rubriker på menyn:
+Start | Sök | lägg in annons | registrering | logga in |
+
+Sidor:
+Index | Sok | lagginannons   | registrera   | loggain  |
+
+
+class Person
+{
+ public int PersonId { get; set; }
+ public string PersonFirstName { get; set; }
+ public string PersonLastName { get; set; }
+ public int PersonEmailId { get; set; }
+}
+
+
+class Phonenumber
+{
+ public int PhonenumberId { get; set; }
+ public string Phonenumber { get; set; }
+}
+
+M-M
+class PersonPhonenumber
+{
+ public int PersonId { get; set; }
+ public int PhonenumberId { get; set; }
+}
+
+class Email
+{
+ public int EmailId { get; set; }
+ public string Email { get; set; }
+}
+
+M-M
+class PersonEmail
+{
+ public int PersonId { get; set; }
+ public int EmailId { get; set; }
+}
+
+class Place
+{
+ public int PlaceId { get; set; }
+ public string Place { get; set; }
+ public int PlaceParent { get; set; }
+}
+
+class Category
+{
+ public int CategoryId { get; set; }
+ public string Category { get; set; }
+ public int CategoryParent { get; set; }
+}
+
+class Address
+{
+ public int AddressId { get; set; }
+ public string AddressStreet { get; set; }
+ public string AddressZipcode { get; set; }
+ public string AddressCity { get; set; }
+}
+
+class public Item
+{
+ public int ItemId { get; set; }
+ public string ItemTitle { get; set; }
+ public string ItemDescription  { get; set; }
+ public int ItemNumber { get; set; }
+ public ItemPrice { get; set; }
+ public ItemCondition { get; set; }
+}
+
+class public Image
+{
+ public string ImageId
+ public string Image
+}
+
+
+payments
+Shipping and handling
+

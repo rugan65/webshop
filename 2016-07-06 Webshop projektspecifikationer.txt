@@ -1,0 +1,49 @@
+Webshop projektspecifikationer
+
+Websidan som visar produkterna och kundvagn ska visas på en sida med AJAX och AngularJS
+Användaren ska kunna logga in på sidan och se shpooinghistoria.
+Det ska finnas admin-gränssnitt för att hantera order, användarkonto och produkter.
+
+- Webshopen ska innehålla följande:
+  - Möjlighet att lägga till konto, behörighet, redigera och radera konto.
+  - Möjlighet att lägga till produkter, redigera och radera produkter.
+  - Kundvagn där användare kan lägga till produkter för att sen gå till kassan och skriva ut ordern.
+  - Admin ska kunna redigera och radera ordrar.
+  - Användaren ska kunna se sina tidigare lagda ordrar.
+
+- Frivilliga extra funktioner:
+  - Möjlighet att lägga till bilder på produkten
+  - Möjlighet för användaren att spara det som finns i varukorgen för att kunna logga ut från sidan och 
+      fortsätta vid ett senare tillfälle, och då kunna logga in och hämta upp tidigare varukorg.
+
+- Projektet ska innehålla detta:
+  - ASP identity för inlogg och behörighet.
+  - Använda roller och autensiering.
+  - Databas för lagring av data.
+  - Använda AJAX och AngularJS för att använa butiken utan att ladda om hela sidan.
+  - Använda partial Views både med och utan AJAX.
+  - Bootstrap för menyer
+  - Dina egna CSS-klasser, förutom bootstrap.
+  - Minst en instans av varje typ (1-1, 1-M, M-M)
+  - Använda Entity Framework för koppling mot databasen.
+  - Använda Github och Team Explorer för hantering av källkoden.
+  - Använda Github versionshantering för planering och hantering av projektet.
+
+(Kom ihåg att använda tiden omsorgsfullt - inte fastna i detaljer i början av projektet.
+Lägga tiden på att få till de grundläggande nödvändiga funktionerna först, och sen lägga till extra funktioner i slutet av projekttiden.)
+
+Datum för överlämning av färdigt projekt: 2016-08-18
+
+- Arbetsordning:
+  - Skapa ett projekt som passar uppgiften.
+  - Implementera identity, anpassa det för denna applikation.
+  - Ändra namn på tabeller och kolumner i db.
+  - Lägg till classer.
+  - Skapa en ny sida för att lägga till mer personuppgifter.
+  - Skapa en enkel html-sida för att registrera nya konto, med fält för att lägga till förnamn, efternamn och födelsedata "ÅÅMMDD"
+  - Börja med att skapa konto för admin som ska kunna lägga in produkter.
+  - Skapa view för produkter.
+
+
+Användare:
+aaa602f8-b791-467b-9092-e7b06457d598
