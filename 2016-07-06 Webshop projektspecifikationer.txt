@@ -38,12 +38,12 @@ Datum för överlämning av färdigt projekt: 2016-08-18
   - Skapa ett projekt som passar uppgiften.
   - Implementera identity, anpassa det för denna applikation.
   - Ändra namn på tabeller och kolumner i db.
-  - Lägg till classer.
-  - Skapa en ny sida för att lägga till mer personuppgifter.
-  - Skapa en enkel html-sida för att registrera nya konto, med fält för att lägga till förnamn, efternamn och födelsedata "ÅÅMMDD"
   - Börja med att skapa konto för admin som ska kunna lägga in produkter.
+  - Skapa vy för att registrera nya konto, med fält för att lägga till förnamn, efternamn och födelsedata "ÅÅMMDD"
+  - Skapa vy där administratören kan hantera användaruppgifter.
+  - Vy för administration av användare.
+  - Lägg till classer: för Item, Cart, Order och Invoice.
   - Skapa view för produkter.
 
 
-Användare:
-aaa602f8-b791-467b-9092-e7b06457d598
+
